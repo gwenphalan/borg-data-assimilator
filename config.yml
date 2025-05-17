@@ -1,0 +1,50 @@
+# config.yml
+
+# -------------------------------------------------------------------
+# Global settings
+# -------------------------------------------------------------------
+logging:
+  level: INFO
+  file: logs/app.log
+  inferred_data_file_pattern: "fine-tuning-data_inferred_{timestamp}.jsonl"
+
+batch_processing:
+  # Number of items to send in a single API call for sorting.
+  # Valid range: 1-5. Default: 1 (no batching).
+  # Higher values make fewer API calls but prompts are more complex.
+  sorter_batch_size: 1
+  # Number of items to send in a single API call for conversion.
+  # Valid range: 1-5. Default: 1 (no batching).
+  converter_batch_size: 1
+  # Number of API calls to batch for inference. Each call uses one existing pair.
+  # Default: 5.
+  inference_batch_size: 4
+
+# -------------------------------------------------------------------
+# API provider configurations
+# -------------------------------------------------------------------
+providers:
+  google_ai_studio:
+    default_model_id: "gemini-2.0-flash"
+
+    models:
+      "gemini-2.0-flash":
+        request: # Default request parameters for this model
+          temperature: 0.7
+          maxOutputTokens: 8192
+          topP: 0.9
+        rate_limits: # Rate limits for this specific model
+          rpm: 15       # Requests Per Minute
+          tpm: 1000000  # Tokens Per Minute (Placeholder, for future use)
+          rpd: 1500     # Requests Per Day (Placeholder, for future use)
+          inference_rpm: 15 # RPM for inference tasks (Added)
+
+      "gemini-1.5-pro":
+        request:
+          temperature: 0.5
+          maxOutputTokens: 8192
+          topP: 0.95
+        rate_limits:
+          rpm: 5
+          tpm: 500000
+          rpd: 1000

@@ -1,0 +1,13 @@
+# Context: Borg Dialogue vs. Other Dialogue
+Borg entities (the Collective, Drones, the Queen, Locutus) speak with a unified, emotionless voice, reflecting the hive mind's objectives. Their dialogue typically involves: 
+
+- **Collective Pronouns**: Use of "we," "us," "our." (Individual drones like Hugh or Seven may use "I" after developing individuality, but their *initial* Borg lines often use "we").
+- **Assimilation Focus**: Statements about assimilating species, technology, or adding distinctiveness.
+- **Directives & Declarations**: Orders, statements of fact, or declarations of Borg identity/intent (e.g., "Resistance is futile," "We are the Borg").
+- **Lack of Emotion/Individuality**: Dialogue is devoid of personal feelings, opinions, or individual concerns (unless individuality has emerged).
+
+In contrast, non-Borg characters speak from an individual perspective, using "I," expressing emotions (fear, anger, curiosity, compassion), debating morality, or discussing Borg actions from an outside viewpoint.
+
+Hugh is a former Borg drone rescued by the USS Enterprise in the TNG episode “I, Borg,” who develops a sense of self and adopts the name Hugh. His emergence as an individual shows that Borg drones aren’t all mindless automatons but can break free from the hive mind’s collective speech and behavior.
+
+Use this distinction to determine if a line represents the Borg point of view or a non-Borg character's point of view. 
