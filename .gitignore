@@ -56,3 +56,4 @@ data/persona/*/tuning_data/*.json
 # Ignore all files in cache except .gitkeep
 cache/**/*
 !cache/.gitkeep
+.cursorrules
